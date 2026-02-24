@@ -47,5 +47,5 @@ jobs:
           project-slug: 'Malicious_Project'
           signing-policy-slug:  'Malicious_Signing_Policy'
           github-artifact-id:  "${{steps.upload-unsigned-artifact.outputs.artifact-id}}"
-          artifact-configuration-slug: 'zipped'
+          artifact-configuration-slug: 'Malicious_Configuration'
           wait-for-completion: true
